@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
-function App() {
+import LandingPage from './components/Home/index';
+import Countries from './components/Countries/index';
+import CountryDetails from './components/Country/index';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Route path="/" exact component={LandingPage} />
+      <Route path="/countries" exact component={Countries} />
+      <Route exact path="/countries/:id" component={CountryDetails} />
+    </Router>
   );
 }
 
