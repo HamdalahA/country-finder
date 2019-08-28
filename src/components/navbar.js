@@ -44,12 +44,18 @@ const CountriesLink = styled.div`
   }
 `
 const NavBar = () => {
+  const url = window.location.href;
+  const currentURL = url.split('/')[url.split('/').length - 1];
   return (
     <Nav>
-      <img src={logo} alt="logo" />
-      <CountriesLink>
+      <Link to="/" href="/">
+        <img src={logo} alt="logo" />
+      </Link>
+      {currentURL === 'countries' ? '' : 
+        <CountriesLink>
         <Link to="/countries" href="/countries">Countries</Link>
-      </CountriesLink>
+        </CountriesLink>
+      }
     </Nav>
   )
 }
