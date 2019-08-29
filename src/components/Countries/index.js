@@ -4,9 +4,7 @@ import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import Loader from 'react-loader-spinner'
 
-import NavBar from '../navbar';
-import Footer from '../footer';
-import CountryCard from '../card';
+import {CountriesCard} from '../card';
 
 const GET_ALL_COUNTRIES = gql`
 { 
@@ -43,49 +41,34 @@ const CardWrapper = styled.div`
   max-width: 1500px;
 
   @media(min-width: 768px) {
+    grid-auto-rows: 50px;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    justify-content: start;
+    justify-content: center;
     gap: 50px;
   }
 `
-const LoaderWrapper = styled.div`
-    height: 100vh;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    display: grid;
-    place-content: center;
-    margin: auto;
-`
-
 
 const Countries = () => {
   return (
     <Wrapper>
-      <NavBar />
       <CardWrapper>
       <Query query={GET_ALL_COUNTRIES}>
         {({data, loading}) => {
           const { countries } = data;
           if(loading) {
-            return <LoaderWrapper>
-             <Loader
-              type="Puff"
-              color="#8D130C"
-              height={100}
-              width={100}
-              />
-            </LoaderWrapper>
+            return <Loader
+            type="Puff"
+            color="#8D130C"
+            height={100}
+            width={100}
+            />
           }
          return countries.map((country) => 
-            <CountryCard {...country} key={country.code} />
+            <CountriesCard {...country} key={country.code} />
          )
         }}
       </Query>
       </CardWrapper>
-    <Footer />
     </Wrapper>
   )
 }
