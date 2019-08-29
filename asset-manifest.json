@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/country-finder/static/css/main.60d0e08a.chunk.css",
+    "main.js": "/country-finder/static/js/main.e144b68f.chunk.js",
+    "main.js.map": "/country-finder/static/js/main.e144b68f.chunk.js.map",
+    "runtime~main.js": "/country-finder/static/js/runtime~main.3a2bcaa9.js",
+    "runtime~main.js.map": "/country-finder/static/js/runtime~main.3a2bcaa9.js.map",
+    "static/css/2.c37b5d79.chunk.css": "/country-finder/static/css/2.c37b5d79.chunk.css",
+    "static/js/2.c1d8940a.chunk.js": "/country-finder/static/js/2.c1d8940a.chunk.js",
+    "static/js/2.c1d8940a.chunk.js.map": "/country-finder/static/js/2.c1d8940a.chunk.js.map",
+    "index.html": "/country-finder/index.html",
+    "precache-manifest.fc633ceedd0bed09a04e60a2d63a5cc0.js": "/country-finder/precache-manifest.fc633ceedd0bed09a04e60a2d63a5cc0.js",
+    "service-worker.js": "/country-finder/service-worker.js",
+    "static/css/2.c37b5d79.chunk.css.map": "/country-finder/static/css/2.c37b5d79.chunk.css.map",
+    "static/css/main.60d0e08a.chunk.css.map": "/country-finder/static/css/main.60d0e08a.chunk.css.map",
+    "static/media/background-image.jpg": "/country-finder/static/media/background-image.ba5297d4.jpg"
+  }
+}
