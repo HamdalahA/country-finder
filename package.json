@@ -1,5 +1,6 @@
 {
   "name": "coutry-finder",
+  "homepage": "https://geekhijabi.github.io/country-finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "expect": "^24.9.0",
+    "gh-pages": "^2.1.1",
     "graphql": "^14.5.3",
     "graphql-tag": "^2.10.1",
     "react": "^16.9.0",
@@ -23,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
