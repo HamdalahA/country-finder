@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.60d0e08a.chunk.css",
-    "main.js": "/static/js/main.0ec6cde2.chunk.js",
-    "main.js.map": "/static/js/main.0ec6cde2.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.3afe8c84.js",
-    "runtime~main.js.map": "/static/js/runtime~main.3afe8c84.js.map",
-    "static/css/2.c37b5d79.chunk.css": "/static/css/2.c37b5d79.chunk.css",
-    "static/js/2.6d7c36c1.chunk.js": "/static/js/2.6d7c36c1.chunk.js",
-    "static/js/2.6d7c36c1.chunk.js.map": "/static/js/2.6d7c36c1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7f48df28225f8d7d6f1059f50a70129e.js": "/precache-manifest.7f48df28225f8d7d6f1059f50a70129e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.c37b5d79.chunk.css.map": "/static/css/2.c37b5d79.chunk.css.map",
-    "static/css/main.60d0e08a.chunk.css.map": "/static/css/main.60d0e08a.chunk.css.map",
-    "static/media/background-image.jpg": "/static/media/background-image.ba5297d4.jpg"
+    "main.css": "/country-finder/static/css/main.60d0e08a.chunk.css",
+    "main.js": "/country-finder/static/js/main.e144b68f.chunk.js",
+    "main.js.map": "/country-finder/static/js/main.e144b68f.chunk.js.map",
+    "runtime~main.js": "/country-finder/static/js/runtime~main.3a2bcaa9.js",
+    "runtime~main.js.map": "/country-finder/static/js/runtime~main.3a2bcaa9.js.map",
+    "static/css/2.c37b5d79.chunk.css": "/country-finder/static/css/2.c37b5d79.chunk.css",
+    "static/js/2.c1d8940a.chunk.js": "/country-finder/static/js/2.c1d8940a.chunk.js",
+    "static/js/2.c1d8940a.chunk.js.map": "/country-finder/static/js/2.c1d8940a.chunk.js.map",
+    "index.html": "/country-finder/index.html",
+    "precache-manifest.fc633ceedd0bed09a04e60a2d63a5cc0.js": "/country-finder/precache-manifest.fc633ceedd0bed09a04e60a2d63a5cc0.js",
+    "service-worker.js": "/country-finder/service-worker.js",
+    "static/css/2.c37b5d79.chunk.css.map": "/country-finder/static/css/2.c37b5d79.chunk.css.map",
+    "static/css/main.60d0e08a.chunk.css.map": "/country-finder/static/css/main.60d0e08a.chunk.css.map",
+    "static/media/background-image.jpg": "/country-finder/static/media/background-image.ba5297d4.jpg"
   }
 }
