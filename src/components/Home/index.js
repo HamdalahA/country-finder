@@ -1,9 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import NavBar from '../navbar';
-import Footer from '../footer';
-
 import backgroundImage from '../../assets/background-image.jpg';
 
 const Wrapper = styled.article`
@@ -83,7 +80,6 @@ const ComingSoon = styled.div`
 const LandingPage = () => {
   return (
     <Wrapper>
-      <NavBar />
       <Header>
         <TitleText>
          <h1>Countries Finder</h1>
@@ -107,7 +103,6 @@ const LandingPage = () => {
           </Steps> 
         </StepDivider>
       </MainContent>
-       <Footer />
     </Wrapper>
   )
 }
